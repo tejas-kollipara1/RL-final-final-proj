@@ -27,7 +27,7 @@ By giving a tabular RL agent a basic "Theory of Mind," this project elegantly so
 
 ## 🧠 2. The Problem with Standard Solutions
 
-In standard tabular **Q-Learning** (implemented as a baseline in `q_agent.py`), the agent learns a policy that maps a given "State" (its cards + the betting history) to an "Action" (fold, call, raise). 
+In standard tabular **Q-Learning** (implemented as a baseline in `q_agent.py`), the agent learns a policy that maps a given "State" (its cards + the betting history) to an "Action" (fold, call, raise).
 
 **The Flaw in Imperfect Information Games:**
 Poker is an imperfect information game. A specific state (e.g., "I have a King and the opponent just raised") can mean entirely different things depending on *who* the opponent is:
